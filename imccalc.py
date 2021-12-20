@@ -15,6 +15,10 @@ elif tabela > 35 and tabela < 39.9:
 elif tabela > 40:
     print('você está com Obesidade Grau 3 ou Mórbida')
 
-print('seu IMC é:  {}'.format(imc))
+result = 'seu IMC é: {}'.format(imc)
+
+
+
+print(result)
 
 
